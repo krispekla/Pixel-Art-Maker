@@ -2,6 +2,7 @@
 
 Currently project is finnished but as I have more time will certainly add more features and upgrades.
 
+<a href="http://htmlpreview.github.io/?https://github.com/krispekla/Pixel-Art-Maker/blob/master/index.html">Here you can see live results</a>
 ## Instructions
 You'll be given starter code, including HTML and CSS, to build the application. You'll write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
 
