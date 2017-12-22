@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #ffe100;
+    font-family:Helvetica,sans-serif;
+}
+
+.heading {
+  background-color: #9fbff2;
+  border-style: groove;
+  box-shadow: 3px 3px red, -1em 0 .4em olive;
+  width: 100%;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+  color: black;
+  font-family:cursive;
+    margin: 1em 0 0.25em;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+
+}
+
+#settings {
+  width: 100%;
+}
+
+#GridSize {
+  float: left;
+  width: 50%;
+}
+
+#Painting {
+  float: right;
+  width: 50%;
+
+}
+
+.clearfix {
+  clear: both;;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+  text-align: center;
+    width: 6em;
+}
+.button {
+  background-color: #475e84;
+  color: white;
+    padding: 3px 23px;
+    text-align: center;
+    text-decoration: none;
+font-size: 18px;
+font-weight:bold;
+font-family:Helvetica;
+border-radius: 3px;
+opacity: 1;
+margin: 0px 3px 3px 3px;
+
+}
+.button:hover{
+  opacity: 0.8;
+  background-color:black;
+}
