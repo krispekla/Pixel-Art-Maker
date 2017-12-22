@@ -1,6 +1,6 @@
 # Pixel Art Maker Project
 
-Currently project is finnished
+Currently project is finnished but as I have more time will certainly add more features and upgrades.
 
 ## Instructions
 You'll be given starter code, including HTML and CSS, to build the application. You'll write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
