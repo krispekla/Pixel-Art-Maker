@@ -1,5 +1,5 @@
 //Variables
-var inputColor= document.getElementById('colorPicker');
+var inputColor = document.getElementById('colorPicker');
 let inputHeight;
 let inputWidth;
 
@@ -10,49 +10,49 @@ let hoverSwitch;
 function makeGrid(inputHeight) {
   event.preventDefault();
 
-inputHeight=document.getElementById('input_height').value;
-inputWidth=document.getElementById('input_width').value;
-var table= document.getElementById('pixel_canvas');
+  inputHeight = document.getElementById('input_height').value;
+  inputWidth = document.getElementById('input_width').value;
+  var table = document.getElementById('pixel_canvas');
 
-table.innerHTML=""
+  table.innerHTML = ""
 
 
-let row;
-for (var i = 0; i <inputHeight; i++) {
-let row=table.insertRow(i);
-  for (var j = 0; j < inputWidth ; j++) {
-   let cell=row.insertCell(j);
+  let row;
+  for (var i = 0; i < inputHeight; i++) {
+    let row = table.insertRow(i);
+    for (var j = 0; j < inputWidth; j++) {
+      let cell = row.insertCell(j);
 
-   //coloring the table
-   if (hoverSwitch===true) {
+      //coloring the table
+      if (hoverSwitch === true) {
 
-       cell.addEventListener("mouseover", function(event) {
-         cell.style.backgroundColor=inputColor.value;
-     });
-//remove color
-cell.addEventListener("dblclick", function(event) {
-  cell.style.backgroundColor="";
-});
+        cell.addEventListener("mouseover", function (event) {
+          cell.style.backgroundColor = inputColor.value;
+        });
+        //remove color
+        cell.addEventListener("dblclick", function (event) {
+          cell.style.backgroundColor = "";
+        });
 
-   }
-else {
+      }
+      else {
 
-cell.addEventListener("click", function(event) {
-cell.style.backgroundColor=inputColor.value;
-  });
+        cell.addEventListener("click", function (event) {
+          cell.style.backgroundColor = inputColor.value;
+        });
 
-  //remove color
-  cell.addEventListener("dblclick", function(event) {
-    cell.style.backgroundColor="";
-  });
-}
+        //remove color
+        cell.addEventListener("dblclick", function (event) {
+          cell.style.backgroundColor = "";
+        });
+      }
 
-console.log(hoverSwitch);
+      console.log(hoverSwitch);
+    }
+
+
   }
 
-
-}
-
-console.log("fga");
+  console.log("fga");
 
 };
